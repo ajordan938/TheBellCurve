@@ -1,0 +1,9 @@
+Select 
+studentid
+currentabsences
+tardies
+termid
+FROM CC
+WHERE (currentabsences >= 5)
+OR (tardies >= 5)
+AND termid = 2800
